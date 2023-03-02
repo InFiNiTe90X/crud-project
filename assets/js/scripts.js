@@ -189,12 +189,16 @@ function borrar(ev) {
 }
 
 function muestrarenglon(evento, id) {
-    let renglon = '<tr><td>' + id + '</td><td>' + evento.datos[0] + '</td><td>' +
-            evento.datos[1] + '</td><td>' + evento.datos[2] + '</td><td>' + evento.datos[3] +
-            '</td><td> <input class="editar ButtonEditar" type="submit" value="" data-id=' +
-            id + '></input> </td><td> <input class="terminar ButtonOk" type="submit" value=' +
-            '"" data-id=' + id + '></input> </td><td> <input class="borrar ButtonBorrar" ty' +
-            'pe="submit" value="" data-id=' + id + '></input> </td></tr>';
+    let renglon = '<tr>'+
+                    '<td>'+ id + '</td>' +
+                    '<td>'+ evento.datos[0] + '</td>' +
+                    '<td>'+ evento.datos[1] + '</td>' +
+                    '<td>'+ evento.datos[2] + '</td>' +
+                    '<td>'+ evento.datos[3] + '</td>' +
+                    '<td> <img src=".//images/edit.png" alt="Editar" class="editar ButtonEditar" type="submit" value="" data-id=' + id + '> </td>' +
+                    '<td> <img src=".//images/ok.png" alt="Ok" class="terminar ButtonOk" type="submit" value="" data-id=' + id + '></input> </td>' +
+                    '<td> <img src=".//images/remove.png" alt="delete" class="borrar ButtonBorrar" type="submit" value="" data-id=' + id + '></input> </td>' +
+                  '</tr>';
     return renglon;
 }
 

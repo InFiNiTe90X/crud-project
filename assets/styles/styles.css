@@ -4,8 +4,6 @@
     border-radius: 0;
 }
 
-
-
 /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
 .row.content {
     height: 450px;
@@ -40,34 +38,22 @@ footer {
     background: url("./images/ok.png") no-repeat;
     cursor: pointer;
     border: none;
-    width: 100px;
-    height: 100px;
-}
-
-.ButtonOk:active {
-    background: url("./images/okc.png") no-repeat;
+    width: 30px;
+    height: 30px;
 }
 
 .ButtonBorrar {
-    background: url("./images/remove.png") no-repeat;
+    background: url(".images/remove.png") no-repeat;
     cursor: pointer;
     border: none;
-    width: 100px;
-    height: 100px;
-}
-
-.ButtonBorrar:active {
-    background: url("./images/removec.png") no-repeat;
+    width: 30px;
+    height: 30x;
 }
 
 .ButtonEditar {
     background: url("./images/edit.png") no-repeat;
     cursor: pointer;
     border: none;
-    width: 100px;
-    height: 100px;
-}
-
-.ButtonEditar:active {
-    background: url("./images/editc.png") no-repeat;
+    width: 30px;
+    height: 30px;
 }
