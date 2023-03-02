@@ -7,6 +7,10 @@
         <link
             rel="stylesheet"
             href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
+            <link rel="stylesheet" href="./assets/styles/styles.css">
+            <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <title>CRUD - MANUEL SILVA</title>
     </head>
     <body>
@@ -36,11 +40,11 @@
         <div class="container-fluid text-center">
             <div class="row content">
                 <div class="w3-card-1">
-                    <div class="w3-container w3-teal">
+                    <div class="w3-container w3-red">
                         <h2>Nueva actividad</h2>
                     </div>
                     <p>
-                        <label class="w3-text-gray">
+                        <label class="w3-text-black">
                             <b>Nombre</b>
                         </label>
                         <input
@@ -50,7 +54,7 @@
                             name="nombre"
                             type="text"></p>
                     <p>
-                        <label class="w3-text-gray">
+                        <label class="w3-text-black">
                             <b>Actividad</b>
                         </label>
                         <input
@@ -61,13 +65,13 @@
                             type="text">
                     </p>
                     <p>
-                        <label class="w3-text-gray">
+                        <label class="w3-text-black">
                             <b>Fecha</b>
                         </label>
                         <input id="fecha" class="w3-input w3-border w3-white" name="fecha" type="date"></p>
                     <p>
-                        <button id="guardar" class="w3-btn w3-teal">Guardar</button>
-                        <button id="cancelar" class="w3-btn w3-teal">Cancelar</button>
+                        <button id="guardar" class="w3-btn w3-green">Guardar</button>
+                        <button id="cancelar" class="w3-btn w3-red">Cancelar</button>
                     </div>
                     <p>
                         Buscar por:
@@ -91,5 +95,6 @@
                     <section class="section"></section>
                 </div>
             </div>
+            <script src="/assets/js/scripts.js"></script>
         </body>
     </html>
